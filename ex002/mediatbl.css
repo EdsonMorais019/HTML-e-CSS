@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+:root {
+    --corlilas : #5f2c82;
+    --corverde : #49a09d;
+}
+
+@media screen and (min-width: 700px) and (max-width: 983px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(to top, var(--corverde), var(--corlilas) );
+
+    }
+   
+    section#login {
+        width: 75vw;
+        height: 40vh;
+    }
+
+    #i {
+        background-size: cover;
+        float: left;
+        width: 38%;
+        height: 100%;
+        
+    }
+
+    #email, #senha {
+        border-radius: 10px;
+        border: none;
+        width: 80%;
+        height: 84%;
+        transform: translate(12%, -9%);
+    }
+
+    #form {
+        font-size: larger;
+        font-size: 1.5em;
+        float: right;
+        width: 62%;
+        height: 296px;
+    }
+
+    .botoes:hover {
+        background-color: aquamarine;
+        font-size: medium;
+        transform: translateZ(-5px) ease;
+}
+}
+@media screen and (min-width: 983px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(to top, var(--corverde), var(--corlilas) );
+
+    }
+   
+    section#login {
+        width: 65vw;
+        height: 40vh;
+    }
+
+    #i {
+        background-size: cover;
+        float: right;
+        width: 38%;
+        height: 100%;
+        
+    }
+
+    #email, #senha {
+        border-radius: 10px;
+        border: none;
+        width: 80%;
+        height: 84%;
+        transform: translate(12%, -42%);
+    }
+
+    #form {
+        text-align: center;
+        font-size: larger;
+        font-size: 2em;
+        float: left;
+        width: 62%;
+        height: 296px;
+    }
+
+    .botoes:hover {
+        background-color: aquamarine;
+        font-size: medium;
+        transform: translateZ(-5px) ease;
+}
+}
